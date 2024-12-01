@@ -1,2 +1,3 @@
-# advent-of-code-2024
-Learning Rust through daily challenges
+# Advent of Code 2024
+
+I decided to participate in Advent of Code 2024 using Rust. I've been wanting to learn rust for a while now and this is a fun way to get my hands dirty with bite-sized problems. Or so I hope...
