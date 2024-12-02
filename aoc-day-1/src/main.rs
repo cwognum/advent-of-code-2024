@@ -9,6 +9,7 @@ use itertools::Itertools;
 /**
  * This is my first ever Rust program. 
  * But, I do have experience programming in Python, Java, C and C++.
+ * Having worked mostly in Python, this is my primary frame of reference. Please don't hate me!
  * 
  * Some things stood out to me: 
  *  (1) Rust is well documented. Got started in minutes through: https://www.rust-lang.org/learn/get-started. 
@@ -38,6 +39,7 @@ fn main() {
     // (although Rust for sure came first here)
 
     // The Vec seems to be the Rust equivalent to a Python list.
+    // Similar to C++
     let args: Vec<String> = env::args().collect();
 
     // Rust seems to distinguish references, pointers and values explicitly.
@@ -90,6 +92,7 @@ fn main() {
     // But using the .counts() method from itertools, we can solve it in a few lines of code.
 
     // The HashMap seems to be the Rust equivalent to a Python dictionary.
+    // Similar to Java's HashMap.
     let counts: HashMap<i64, usize> = right_list.into_iter().counts();
     
     let similarity_score: i64 = left_list
